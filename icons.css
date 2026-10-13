@@ -1,0 +1,67 @@
+/* =====================================================================
+   PelitaHatiKu - icons.css
+   Penyesuaian kecil untuk ikon Google Material Symbols.
+   Muat SEBELUM style.css agar aturan di style.css tetap menang.
+   ===================================================================== */
+
+.material-symbols-outlined {
+    vertical-align: middle;
+    user-select: none;
+}
+
+/* Ikon sebaris di judul kartu, tombol, chip, ringkasan, banner, dll. */
+.card__title .material-symbols-outlined,
+.btn .material-symbols-outlined,
+.filter-chip .material-symbols-outlined,
+summary .material-symbols-outlined,
+.status-banner .material-symbols-outlined,
+.locked-note .material-symbols-outlined,
+.hafalan-card__note .material-symbols-outlined,
+.hafalan-item__note .material-symbols-outlined,
+.hafalan-card__title .material-symbols-outlined,
+.hafalan-item__title .material-symbols-outlined,
+.stat-mini__label .material-symbols-outlined,
+.peng-item__date .material-symbols-outlined,
+.peng-item__meta .material-symbols-outlined,
+.siswa-item__meta .material-symbols-outlined,
+.list-row__meta .material-symbols-outlined,
+.rapor-card__meta .material-symbols-outlined,
+.login-tab-btn .material-symbols-outlined,
+.alert .material-symbols-outlined {
+    font-size: 20px;
+    margin-right: 4px;
+}
+
+.stat-mini__label .material-symbols-outlined,
+.peng-item__date .material-symbols-outlined,
+.peng-item__meta .material-symbols-outlined,
+.siswa-item__meta .material-symbols-outlined,
+.list-row__meta .material-symbols-outlined,
+.rapor-card__meta .material-symbols-outlined {
+    font-size: 15px;
+    margin-right: 3px;
+}
+
+/* Tombol ikon kecil (edit / hapus / reset, dll.) */
+.icon-btn .material-symbols-outlined {
+    font-size: 18px;
+    margin: 0;
+}
+
+/* Ikon besar di kotak empty state */
+.empty-state__icon .material-symbols-outlined {
+    font-size: 36px;
+    margin: 0;
+}
+
+/* Ikon di topbar avatar / hamburger tidak perlu margin */
+.hamburger-btn .material-symbols-outlined,
+.bottom-nav__item .material-symbols-outlined {
+    margin: 0;
+}
+
+/* Kartu menu (dashboard) */
+.menu-tile__icon .material-symbols-outlined {
+    font-size: 28px;
+    margin: 0;
+}
